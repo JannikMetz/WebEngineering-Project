@@ -1,0 +1,71 @@
+/*------------ NAVIGATION BAR ------------*/
+
+/* Grundlegende Stile für die Navigation */
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li {
+    position: relative;
+    /* Wichtig für das Dropdown-Menu */
+    
+    
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    padding: 14px 100px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 15px;
+}
+
+/* Dropdown-Menü (wird standardmäßig versteckt) */
+nav ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    padding: 0;
+    list-style-type: none;
+    min-width: 150px;
+    border-radius: 15px;
+}
+
+nav ul li ul li a {
+    padding: 14px 100px;;
+}
+
+nav ul li ul li a:hover {
+    background-color: #575757;
+}
+
+/* Das Dropdown-Menü anzeigen, wenn man über das Eltern-Element fährt */
+nav ul li:hover ul {
+    display: block;
+}
+
+nav div {
+    display: flex;
+    justify-content: left;
+    color: white;
+}
