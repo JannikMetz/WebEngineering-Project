@@ -1,5 +1,6 @@
 /* Allgemeine Stile */
 body {
+    overflow-x: hidden; /* Prevents horizontal scrolling */
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
