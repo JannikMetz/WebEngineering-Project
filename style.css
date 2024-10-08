@@ -4,11 +4,11 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f5f5f5;
-    color: #333;
+    color: #ffffff;
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #1E3A5F;
     color: white;
     padding: 20px;
     text-align: center;
@@ -21,7 +21,7 @@ h1 {
 
 h2,
 h3 {
-    color: #4CAF50;
+    color: #4680cb;
 }
 
 p {
@@ -34,22 +34,48 @@ p {
     justify-content: space-around;
     align-items: center;
     padding: 50px 20px;
-    background-color: #fff;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #232323;
 }
 
-.product-image img {
-    max-width: 400px;
-    border-radius: 10px;
+
+/* PRODUCT IMAGE CONFIGURATION*/
+
+.image-container {
+    position: relative;
+    width: 1000px;
+    height: 1000px;
+    overflow: hidden;
+    border-radius: 120px; /* Rounded corners */
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease; /* Smooth transition */
+    
 }
+
+
+.product-image {
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    transition: opacity 0.5s ease; /* Smooth transition */
+}
+
+/* Image hover effect */
+.image-container:hover .product-image {
+    content: url('images/product_backview.webp'); /* Change the image on hover */
+}
+
+
+
+
+
+
+
 
 .product-info {
     max-width: 600px;
 }
 
 .product-info ul {
-    list-style-type: none;
+    list-style-type: disc;
     padding: 0;
 }
 
@@ -60,18 +86,19 @@ p {
 }
 
 button {
-    background-color: #4CAF50;
+    background-color: #4680cb;
     color: white;
     padding: 10px 20px;
     border: none;
-    border-radius: 5px;
+    border-radius: 15px;
     cursor: pointer;
     font-size: 1.2em;
     margin-top: 20px;
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #193355;
+    color: rgb(174, 174, 174);
 }
 
 /* Footer */
@@ -98,3 +125,21 @@ footer {
     /* Innenabstand (padding) von 40px */
     box-shadow: 0 4px 8px rgba
 }
+
+/* for Font Awesome icons */
+
+i {
+    color: #a075fd; /* Icon color */
+    font-size: 48px; /* Icon size */
+    margin: 10px; /* Space around icons */
+    transition: color 0.3s; /* Smooth color transition */
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+i:hover {
+    color: #7657b9; /* Color change on hover */
+    transform: rotate(360deg); /* Spin effect */
+    
+}
+
+
