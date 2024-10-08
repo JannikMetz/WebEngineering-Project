@@ -1,0 +1,196 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #232323;
+    color: #ffffff;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #3464a2;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+nav ul li {
+    position: relative;
+    /* Wichtig für das Dropdown-Menu */
+    
+    
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    padding: 14px 100px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #1e3c61;
+    border-radius: 15px;
+}
+
+/* Dropdown-Menü (wird standardmäßig versteckt) */
+nav ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #0c1828;
+    padding: 0;
+    list-style-type: none;
+    min-width: 150px;
+    border-radius: 15px;
+}
+
+nav ul li ul li a {
+    padding: 14px 100px;;
+}
+
+nav ul li ul li a:hover {
+    background-color: #112135;
+}
+
+/* Das Dropdown-Menü anzeigen, wenn man über das Eltern-Element fährt */
+nav ul li:hover ul {
+    display: block;
+}
+
+nav div {
+    display: flex;
+    justify-content: left;
+    color: white;
+}
+
+/* Header */
+header {
+    background-color: #1E3A5F;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* About Container */
+.about-container {
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    text-align: center;
+    margin: 40px auto;
+    transition: all 0.3s ease;
+}
+
+.about-container h1 {
+    color: #4680cb;
+
+}
+
+.about-container:hover {
+    transform: translateY(-10px);
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+h2,
+h3 {
+    color: #4680cb;
+}
+
+p {
+    font-size: 1.1rem;
+    margin: 15px 0;
+    color: #555;
+}
+
+.icon {
+    color: #007bff;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.author-section {
+    margin-top: 30px;
+    font-style: italic;
+    color: #888;
+}
+
+.author-section a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.author-section a:hover {
+    color: #0056b3;
+}
+
+.license {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.2rem;
+    }
+
+    .about-container {
+        margin: 20px auto;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
+
+/* for Font Awesome icons */
+
+i {
+    font-size: 48px;
+    /* Icon size */
+    margin: 10px;
+    /* Space around icons */
+    transition: color 0.3s;
+    /* Smooth color transition */
+    transition: transform 1s ease;
+    /* Smooth transition */
+}
+
+i:hover {
+    color: #1E3A5F;
+    /* Color change on hover */
+    transform: rotate(360deg);
+    /* Spin effect */
+
+}

@@ -2,3 +2,7 @@
 #LICENSE
 #ignore README file
 #README.md
+
+#ignore test files
+test.html
+test.css

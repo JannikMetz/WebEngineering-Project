@@ -1,0 +1,22 @@
+/* for Font Awesome icons */
+
+i {
+    color: #a075fd;
+    /* Icon color */
+    font-size: 48px;
+    /* Icon size */
+    margin: 10px;
+    /* Space around icons */
+    transition: color 0.3s;
+    /* Smooth color transition */
+    transition: transform 1s ease;
+    /* Smooth transition */
+}
+
+i:hover {
+    color: #7657b9;
+    /* Color change on hover */
+    transform: rotate(360deg);
+    /* Spin effect */
+
+}

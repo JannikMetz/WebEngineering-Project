@@ -45,20 +45,24 @@ p {
     width: 1000px;
     height: 1000px;
     overflow: hidden;
-    border-radius: 120px; /* Rounded corners */
+    border-radius: 120px;
+    /* Rounded corners */
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 
 .product-image {
-    border-radius: 10px; /* Rounded corners */
+    border-radius: 10px;
+    /* Rounded corners */
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
-    transition: opacity 0.5s ease; /* Smooth transition */
+    transition: opacity 0.5s ease;
+    /* Smooth transition */
 }
 
 /* Image hover effect */
 .image-container:hover .product-image {
-    content: url('images/product_backview.webp'); /* Change the image on hover */
+    content: url('images/product_backview.webp');
+    /* Change the image on hover */
 }
 
 
@@ -78,7 +82,7 @@ p {
 }
 
 .product-info b {
-color: #4680cb;
+    color: #4680cb;
 }
 
 
@@ -134,21 +138,6 @@ footer {
     box-shadow: 0 4px 8px rgba
 }
 
-/* for Font Awesome icons */
-
-i {
-    color: #a075fd; /* Icon color */
-    font-size: 48px; /* Icon size */
-    margin: 10px; /* Space around icons */
-    transition: color 0.3s; /* Smooth color transition */
-    transition: transform 1s ease; /* Smooth transition */
-}
-
-i:hover {
-    color: #7657b9; /* Color change on hover */
-    transform: rotate(360deg); /* Spin effect */
-    
-}
 
 
 .contact-form {
