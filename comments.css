@@ -2,6 +2,20 @@
     max-width: 800px;
     margin: 0 auto;
   }
+
+.comments-section i {
+    color: #4680cb;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  .comments-section i:hover {
+    color: #4680cb;
+    /* Color change on hover */
+    transform: rotate(0);
+    /* Spin effect */
+
+}
   
   .comments-title {
     text-align: center;
