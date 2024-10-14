@@ -6,3 +6,6 @@
 #ignore test files
 test.html
 test.css
+
+#ignore workspace file
+WebEngineering-Project.code-workspace
