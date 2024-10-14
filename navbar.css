@@ -29,7 +29,7 @@ nav ul li {
 
 nav ul li a {
     display: block;
-    color: white;
+    color: #eff1f4;
     padding: 14px 100px;
     text-decoration: none;
 }
@@ -68,5 +68,5 @@ nav ul li:hover ul {
 nav div {
     display: flex;
     justify-content: left;
-    color: white;
+    color: #eff1f4;
 }

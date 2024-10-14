@@ -4,13 +4,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #232323;
-    color: #ffffff;
+    background-color: #06080d;
+    color: #eff1f4;
 }
 
 header {
     background-color: #1E3A5F;
-    color: white;
+    color: #eff1f4;
     padding: 20px;
     text-align: center;
 }
@@ -22,7 +22,7 @@ h1 {
 
 h2,
 h3 {
-    color: #4680cb;
+    color: #8cabdd;
 }
 
 p {
@@ -35,7 +35,7 @@ p {
     justify-content: space-around;
     align-items: center;
     padding: 50px 20px;
-    background-color: #232323;
+    background-color: #06080d;
 }
 
 
@@ -101,8 +101,8 @@ p {
 }
 
 button {
-    background-color: #4680cb;
-    color: white;
+    background-color: #2675f3;
+    color: #eff1f4;
     padding: 10px 20px;
     border: none;
     border-radius: 15px;
@@ -121,7 +121,7 @@ footer {
     text-align: center;
     padding: 20px;
     background-color: #333;
-    color: white;
+    color: #eff1f4;
     position: relative;
     bottom: 0;
     width: 100%;
@@ -129,7 +129,7 @@ footer {
 
 /* Stil für das große div */
 .big-box {
-    background-color: #232323;
+    background-color: #06080d;
     width: 80%;
     /* Breite auf 80% der Seite festgelegt */
     min-height: 400px;
@@ -148,7 +148,11 @@ footer {
     justify-content: space-around;
     align-items: center;
     padding: 50px 20px;
-    background-color: #232323
+    background-color: #06080d;
+}
+
+.contact-form h2 {
+    color: #2675f3;
 }
 
 form {
@@ -161,8 +165,7 @@ form label {
     padding: 20px;
 }
 form button {
-    background-color: #4680cb;
-    color: white;
+    color: #eff1f4;
     padding: 40px;
     margin : 20px;
     border: none;

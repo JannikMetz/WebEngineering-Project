@@ -4,13 +4,13 @@
   }
 
 .comments-section i {
-    color: #4680cb;
+    color: #2675f3;
     font-size: 2rem;
     margin-bottom: 20px;
   }
 
   .comments-section i:hover {
-    color: #4680cb;
+    color: #2675f3;
     /* Color change on hover */
     transform: rotate(0);
     /* Spin effect */
@@ -19,13 +19,14 @@
   
   .comments-title {
     text-align: center;
+    color: #2675f3;
     font-size: 2rem;
     margin-bottom: 20px;
   }
   
   .comment {
     display: flex;
-    background-color: #fff;
+    background-color: #eff1f4;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 15px;
