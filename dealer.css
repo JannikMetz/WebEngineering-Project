@@ -1,0 +1,75 @@
+.buy-section {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+.buy-section i {
+    color: #2675f3;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  .buy-section i:hover {
+    color: #2675f3;
+    /* Color change on hover */
+    transform: rotate(0);
+    /* Spin effect */
+
+}
+  
+  .buy-title {
+    text-align: center;
+    color: #2675f3;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .dealer-row {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+
+  .dealer {
+    display: flex;
+    background-color: #eff1f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .dealer:hover {
+    transform: translateY(-5px);
+  }
+  
+  .dealer-avatar img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .dealer-content {
+    margin-left: 15px;
+    flex: 1;
+  }
+  
+  .dealer-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .dealer-author {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .dealer-text {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+  }

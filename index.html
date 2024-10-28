@@ -2,92 +2,180 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NeuroLingo</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="navbar.css">
-    <link rel="stylesheet" href="font-animation.css">
-    <link rel="stylesheet" href="comments.css">
-    <!-- Font Awesome for Symbols -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NeuroLingo</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="navbar.css">
+  <link rel="stylesheet" href="font-animation.css">
+  <link rel="stylesheet" href="dealer.css">
+  <link rel="stylesheet" href="comments.css">
+  <!-- Font Awesome for Symbols -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
 <body>
 
-    <!-- Navigiation Bar -->
-    <nav>
+  <!-- Navigiation Bar -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li>
+        <a href="#vision">The Vision</a>
+        <!-- Dropdown-Menü -->
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li>
-                <a href="#vision">The Vision</a>
-                <!-- Dropdown-Menü -->
-                <ul>
-                    <li><a href="#how">How it Works</a></li>
-                    <li><a href="#buy">Where to buy?</a></li>
-                    <li><a href="#reviews">Reviews</a></li>
-                </ul>
-            </li>
-            <li><a href="about.html">About</a></li>
-            <li> <a href="contact.html">Contact</a></li>
+          <li><a href="#how">How it Works</a></li>
+          <li><a href="#buy">Where to buy?</a></li>
+          <li><a href="#reviews">Reviews</a></li>
         </ul>
-    </nav>
+      </li>
+      <li><a href="about.html">About</a></li>
+      <li> <a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
 
-    <!-- Navigiation Bar End -->
+  <!-- Navigiation Bar End -->
 
-    <header>
-        <h1>NeuroLingo</h1>
-        <i class="fas fa-brain"></i>
-    </header>
-
-
-
-    <section class="product-details">
+  <header>
+    <h1>NeuroLingo</h1>
+    <i class="fas fa-brain"></i>
+  </header>
 
 
 
-        <div class="image-container">
-            <img src="images/product_frontview.webp" alt="NeuroLingo Image" class="product-image">
+  <section class="product-details">
+
+
+
+    <div class="image-container">
+      <img src="images/product_frontview.webp" alt="NeuroLingo Image" class="product-image">
+    </div>
+
+    <div class="product-info">
+      <h2>Product Details</h2>
+      <p>The <b>Thought Translator </b> is a futuristic wearable device that converts brain activity into text or
+        speech in <b>Real-Time</b>. <br>
+        Worn on the head, it uses advanced neurotechnology to analyze brain patterns and translate them into
+        understandable words. <br>
+        For instance, it can express thoughts, ideas, or dreams instantly.</p>
+      <ul>
+        <li>Form Factor: Ergonomic, adjustable headband</li>
+        <li>Sampling Rate: 256 Hz for real-time processing</li>
+        <li>Weight: 150 grams (5.3 ounces)</li>
+        <li>Battery: Rechargeable 4000mAh Lithium-ion, up to 12 hours of use, USB-C fast charging</li>
+        <li>Connectivity: Bluetooth 5.0, Wi-Fi 802.11ac (iOS & Android compatible)</li>
+        <li>Output Modes: Text on mobile device, voice output via speaker or headphones</li>
+        <li>Safety: CE, FCC, and RoHS certified; non-invasive design</li>
+        <li>Warranty: 2-year limited warranty; 24/7 customer support</li>
+      </ul>
+      <h3>Price: $10,899.99</h3>
+      <button onclick="window.location.href='#buy'">Buy now</button>
+    </div>
+  </section>
+  <header id="buy">
+    <h1>Where to buy?</h1>
+    <p>The only neurological Brain Translator in existance</p>
+  </header>
+
+  <section class="buy-section">
+    <h2 class="buy-title"> Our Dealers <i class="fas fa-shop"></i></h2>
+
+    <div class="dealer-row">
+      <div class="dealer">
+        <div class="dealer-avatar">
+          <img src="images/user_image1.png" alt="dealer Avatar">
         </div>
-
-        <div class="product-info">
-            <h2>Product Details</h2>
-            <p>The <b>Thought Translator </b> is a futuristic wearable device that converts brain activity into text or
-                speech in <b>Real-Time</b>. <br>
-                Worn on the head, it uses advanced neurotechnology to analyze brain patterns and translate them into
-                understandable words. <br>
-                For instance, it can express thoughts, ideas, or dreams instantly.</p>
-            <ul>
-                <li>Form Factor: Ergonomic, adjustable headband</li>
-                <li>Sampling Rate: 256 Hz for real-time processing</li>
-                <li>Weight: 150 grams (5.3 ounces)</li>
-                <li>Battery: Rechargeable 4000mAh Lithium-ion, up to 12 hours of use, USB-C fast charging</li>
-                <li>Connectivity: Bluetooth 5.0, Wi-Fi 802.11ac (iOS & Android compatible)</li>
-                <li>Output Modes: Text on mobile device, voice output via speaker or headphones</li>
-                <li>Safety: CE, FCC, and RoHS certified; non-invasive design</li>
-                <li>Warranty: 2-year limited warranty; 24/7 customer support</li>
-            </ul>
-            <h3>Price: $10,899.99</h3>
-            <button onclick="window.location.href='#buy'">Buy now</button>
+        <div class="dealer-content">
+          <div class="dealer-header">
+            <h3 class="dealer-author">John Doe</h3>
+          </div>
+          <p class="dealer-text">This is a sample comment. I really like the design of this page!</p>
         </div>
-    </section>
-    <header id="buy">
-                <h1>Where to buy?</h1>
-                <p>The only neurological Brain Translator in existance</p>
-    </header>
-
-    <div class="big-box"></div>
+      </div>
 
 
-
-    <header id="reviews">
-        <h1>Reviews</h1>
-        <p>Listen how other people feel about our product!</p>
-</header>
-
-   <section class="comments-section">
-    <h2 class="comments-title">Comments <i class="fas fa-comment"></i></h2>
+      <div class="dealer">
+        <div class="dealer-avatar">
+          <img src="images/user_image1.png" alt="dealer Avatar">
+        </div>
+        <div class="dealer-content">
+          <div class="dealer-header">
+            <h3 class="dealer-author">John Doe</h3>
+          </div>
+          <p class="dealer-text">This is a sample comment. I really like the design of this page!</p>
+        </div>
+      </div>
+    </div>
     
+    <div class="dealer-row">
+      <div class="dealer">
+        <div class="dealer-avatar">
+          <img src="images/user_image1.png" alt="dealer Avatar">
+        </div>
+        <div class="dealer-content">
+          <div class="dealer-header">
+            <h3 class="dealer-author">John Doe</h3>
+          </div>
+          <p class="dealer-text">This is a sample comment. I really like the design of this page!</p>
+        </div>
+      </div>
+
+
+      <div class="dealer">
+        <div class="dealer-avatar">
+          <img src="images/user_image1.png" alt="dealer Avatar">
+        </div>
+        <div class="dealer-content">
+          <div class="dealer-header">
+            <h3 class="dealer-author">John Doe</h3>
+          </div>
+          <p class="dealer-text">This is a sample comment. I really like the design of this page!</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="dealer-row">
+      <div class="dealer">
+        <div class="dealer-avatar">
+          <img src="images/user_image1.png" alt="dealer Avatar">
+        </div>
+        <div class="dealer-content">
+          <div class="dealer-header">
+            <h3 class="dealer-author">John Doe</h3>
+          </div>
+          <p class="dealer-text">This is a sample comment. I really like the design of this page!</p>
+        </div>
+      </div>
+
+
+      <div class="dealer">
+        <div class="dealer-avatar">
+          <img src="images/user_image1.png" alt="dealer Avatar">
+        </div>
+        <div class="dealer-content">
+          <div class="dealer-header">
+            <h3 class="dealer-author">John Doe</h3>
+          </div>
+          <p class="dealer-text">This is a sample comment. I really like the design of this page!</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <div class="big-box"></div>
+
+
+
+  <header id="reviews">
+    <h1>Reviews</h1>
+    <p>Listen how other people feel about our product!</p>
+  </header>
+
+  <section class="comments-section">
+    <h2 class="comments-title">Comments <i class="fas fa-comment"></i></h2>
+
 
     <div class="comment">
       <div class="comment-avatar">
@@ -96,7 +184,6 @@
       <div class="comment-content">
         <div class="comment-header">
           <h3 class="comment-author">John Doe</h3>
-          <span class="comment-timestamp">2 hours ago</span>
         </div>
         <p class="comment-text">This is a sample comment. I really like the design of this page!</p>
       </div>
@@ -109,7 +196,6 @@
       <div class="comment-content">
         <div class="comment-header">
           <h3 class="comment-author">Jane Smith</h3>
-          <span class="comment-timestamp">5 hours ago</span>
         </div>
         <p class="comment-text">Great post! Thanks for sharing this information.</p>
       </div>
@@ -120,12 +206,12 @@
   </section>
 
 
+  <div class="big-box"></div>
 
 
-
-    <footer>
-        <p>© 2024 NeuroLingo. All Rights reserved.</p>
-    </footer>
+  <footer>
+    <p>© 2024 NeuroLingo. All Rights reserved.</p>
+  </footer>
 
 </body>
 

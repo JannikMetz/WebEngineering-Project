@@ -132,9 +132,9 @@ footer {
     background-color: #06080d;
     width: 80%;
     /* Breite auf 80% der Seite festgelegt */
-    min-height: 400px;
+    min-height: 20px;
     /* Mindesthöhe des div auf 400px */
-    margin: 500px auto;
+    margin: 20px auto;
     /* Außenabstand (margin) von 50px oben/unten, zentriert auf der Seite */
     padding: 40px;
     /* Innenabstand (padding) von 40px */
