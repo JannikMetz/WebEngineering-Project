@@ -138,7 +138,7 @@ footer {
     /* Außenabstand (margin) von 50px oben/unten, zentriert auf der Seite */
     padding: 40px;
     /* Innenabstand (padding) von 40px */
-    box-shadow: 0 4px 8px rgba
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 
