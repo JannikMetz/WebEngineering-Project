@@ -2,7 +2,7 @@
 This is a repository for a product Website for a Web-Engineering Class. Feel free to use it!
 
 ## What are the fundamental building blocks of this website?
-This website is created using only HTML and CSS, with no JavaScript involved. It's designed to be lightweight, fast, and simple.
+This Website is created using only HTML and CSS, with no JavaScript involved. It's designed to be lightweight, fast, and simple, while also being 100% XML compliant.
 Additionally, FontAwesome is used to provide beautiful, scalable icons for enhancing the design and user experience.
 
 ## Images
