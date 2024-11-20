@@ -155,6 +155,8 @@ footer {
     color: #2675f3;
 }
 
+
+
 form {
     display: flex;
     flex-direction: column;
@@ -164,6 +166,7 @@ form label {
     margin-bottom: 10px;
     padding: 20px;
 }
+
 form button {
     color: #eff1f4;
     padding: 40px;

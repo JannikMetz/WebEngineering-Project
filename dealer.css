@@ -22,13 +22,17 @@
     color: #2675f3;
     font-size: 2rem;
     margin-bottom: 20px;
-  }
-  
-  .dealer-row {
+    }
+    
+    .dealer-row {
     display: flex;
     gap: 20px;
     justify-content: space-between;
-}
+    padding: 0 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    flex-wrap: wrap; 
+    }
 
 
   .dealer {
